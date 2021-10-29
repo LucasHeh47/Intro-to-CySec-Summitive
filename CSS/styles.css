@@ -1,58 +1,126 @@
 body {
-  background-color: #c9e3ff;
+  background: rgb(2,0,36);
+  background: radial-gradient(rgba(2,0,36,1) 0%, rgba(255,156,246,1) 0%, rgba(0,212,255,1) 100%);
+  background-attachment: fixed;
 }
 
 .topbar {
   width: 40%;
-  border-radius: 10px;
+  border-radius: 75px;
   border: 5px solid black;
   font-family: monospace;
   padding: 10px;
   margin-left: auto;
   margin-right: auto;
+  background-color: #c2ecff;
 }
 
 #title {
   text-align: center;
+  font-size: 35px;
 }
 
 .navbar {
-  width: 50%;
+  width: 40%;
   padding: 10px;
   margin-left: auto;
   margin-right: auto;
   border: 3px solid #00aaff;
   background-color: #aaeeff;
-  border-radius: 2px;
+  border-radius: 20px;
 }
 
 .navbar ul {
   list-style: none;
+  //width: 25%;
   display: inline;
   text-align: center;
 }
 
-.navbar a {
-  text-decoration: none;
+.navbar li {
+  font-size: 15px;
+  line-height: 25px;
+  padding: 1px 3px;
+  margin: 3px 10px;
   background-color: #aafeff;
   border: 1px solid black;
-  border-radius: 2px;
+  border-radius: 5px;
 }
 
-.info-1 {
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+.info {
   background-color: #a1e3ff;
-  width: 20%;
-  border: 15px solid #00eeff;
+  width: 33%;
+  border: 3px double #000000;
   border-radius: 15px;
   font-family: monospace;
   font-size: 15px;
-  margin-left: 20%;
+  margin: auto;
+
 }
 
-.info-1 p{
+.info p{
+  font-weight: bold;
+  text-align: center;
+}
+
+.info h2 {
+  text-align: center;
+  border: 2px dashed black;
+}
+
+.info h3 {
+  text-align: center;
+  text-shadow: 1px 1px 3px #7c7c7c;
+}
+
+.info-iot {
+  background-color: #a1e3ff;
+  width: 33%;
+  border: 3px double #000000;
+  border-radius: 15px;
+  font-family: monospace;
+  font-size: 15px;
+  margin: auto;
+
+}
+
+.info-iot p{
   font-weight: bold;
 }
 
-.info-1 h2 {
+#definition {
   text-align: center;
+}
+
+.iot {
+  text-align: center;
+  border: 2px dashed black;
+  padding: 1px;
+}
+
+.iot h2 {
+  line-height: 0px;
+}
+
+.iot h3 {
+  line-height: 0px;
+}
+
+.bigcapital {
+  font-size: 25px;
+}
+
+.sources {
+
+}
+
+.sources a {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
 }
